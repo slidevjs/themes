@@ -56,6 +56,16 @@ importers:
       vue: 3.0.11
       zx: 1.2.2
 
+  packages/theme-apple-basic:
+    specifiers:
+      codemirror-theme-vars: ^0.1.1
+      prism-theme-vars: ^0.2.2
+      theme-vitesse: ^0.1.11
+    dependencies:
+      codemirror-theme-vars: 0.1.1
+      prism-theme-vars: 0.2.2
+      theme-vitesse: 0.1.11
+
   packages/theme-default:
     specifiers:
       codemirror-theme-vars: ^0.1.1

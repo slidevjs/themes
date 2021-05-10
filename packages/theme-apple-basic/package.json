@@ -1,7 +1,11 @@
 {
-  "name": "slidev-theme-apple-basic",
-  "version": "1.0.3",
+  "name": "@slidev/theme-apple-basic",
+  "version": "0.1.0",
   "description": "Apple like theme for Slidev",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,19 +18,18 @@
     "colorSchema": "both",
     "highlighter": "all"
   },
-  "keywords": [
-    "slidev-theme",
-    "slidev"
-  ],
   "scripts": {
     "dev": "slidev example.md --open",
     "build": "slidev build example.md",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png"
   },
+  "peerDependencies": {
+    "@slidev/client": "^0.6.7"
+  },
   "dependencies": {
-    "@slidev/cli": "^0.6.1",
-    "@slidev/theme-default": "^0.6.1",
-    "playwright-chromium": "^1.10.0"
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-vitesse": "^0.1.11"
   }
 }
