@@ -16,7 +16,7 @@ export default mergeWindicssConfig(
     theme: {
       extend: {
         fontFamily: {
-          sans: '"Helvetica Neue"'
+          sans: '"Helvetica Neue"',
         },
       },
     },
