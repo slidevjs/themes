@@ -1,0 +1,32 @@
+{
+  "name": "slidev-theme-apple-basic",
+  "version": "1.0.2",
+  "description": "Apple like theme for Slidev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slidevjs/themes"
+  },
+  "homepage": "https://sli.dev",
+  "bugs": "https://github.com/slidevjs/themes/issues",
+  "author": "Jeremy Meissner <jymeissner@gmail.com>",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.6.1",
+    "@slidev/theme-default": "^0.6.1",
+    "playwright-chromium": "^1.10.0"
+  }
+}
