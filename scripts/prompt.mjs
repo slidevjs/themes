@@ -17,4 +17,6 @@ if (!pkg)
   process.exit(1)
 
 cd(pkg.path)
-await $`bumpp --push --commit "chore: release ${pkg.name} v"`
+const msg = `chore: release ${pkg.name} v`
+const tag = `${pkg.name}@v`
+await $`bumpp --push --commit ${msg} --tag ${tag}`
