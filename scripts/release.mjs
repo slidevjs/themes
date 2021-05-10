@@ -1,7 +1,7 @@
 // @ts-nocheck
 
 import { $, cd } from 'zx'
-import { getPackagePaths } from './packages'
+import { getPackagePaths } from './packages.mjs'
 
 for (const pkg of await getPackagePaths()) {
   cd(pkg)

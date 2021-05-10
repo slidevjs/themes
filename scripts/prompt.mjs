@@ -2,7 +2,7 @@
 
 import { $, cd } from 'zx'
 import prompts from 'prompts'
-import { getPackageInfo } from './packages'
+import { getPackageInfo } from './packages.mjs'
 
 const packages = await getPackageInfo()
 
