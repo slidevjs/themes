@@ -7,6 +7,8 @@
     "lint": "eslint '**/*.{js,ts,vue,json}'",
     "lint:fix": "nr lint --fix",
     "upgrade": "taze -rwi --include /@slidev/",
+    "dev": "zx scripts/dev.mjs",
+    "build": "zx scripts/build.mjs",
     "release": "zx scripts/prompt.mjs",
     "screenshot": "zx scripts/screenshot.mjs",
     "ci:publish": "zx scripts/publish.mjs"

@@ -1,6 +1,7 @@
 import { join } from 'path'
 import { promises as fs } from 'fs'
 import fg from 'fast-glob'
+import prompts from 'prompts'
 
 export async function getPackagePaths() {
   return await fg('./packages/*', { onlyDirectories: true, absolute: true })
@@ -23,4 +24,20 @@ export async function getPackageInfo() {
       }
     }),
   )
+}
+
+export async function promptForPackage() {
+  const packages = await getPackageInfo()
+
+  const { pkg } = await prompts({
+    name: 'pkg',
+    type: 'select',
+    message: 'Choose a package',
+    choices: packages.map(p => ({ value: p, title: p.name })),
+  })
+
+  if (!pkg)
+    process.exit(1)
+
+  return pkg
 }
