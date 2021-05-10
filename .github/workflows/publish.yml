@@ -1,11 +1,12 @@
-name: Release
+name: Publish
 
 on:
   push:
-    tag: '*'
+    tags:
+      - '*'
 
 jobs:
-  release:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,7 +18,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm i -g pnpm @antfu/ni
       - run: nci
-      - run: nr ci:release
+      - run: nr ci:publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - uses: EndBug/add-and-commit@v7

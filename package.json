@@ -9,7 +9,7 @@
     "upgrade": "taze -rwi --include /@slidev/",
     "release": "zx scripts/prompt.mjs",
     "screenshot": "zx scripts/screenshot.mjs",
-    "ci:release": "zx scripts/release.mjs"
+    "ci:publish": "zx scripts/publish.mjs"
   },
   "husky": {
     "hooks": {
