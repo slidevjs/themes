@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "esnext",
     "baseUrl": ".",
-    "target": "es2016",
+    "target": "esnext",
     "lib": ["DOM", "ESNext"],
     "strict": true,
     "esModuleInterop": true,
@@ -16,5 +16,8 @@
       "vite/client",
       "node"
     ]
-  }
+  },
+  "exclude": [
+    "scripts/*"
+  ]
 }
