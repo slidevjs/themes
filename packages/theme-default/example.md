@@ -1,7 +1,7 @@
 ---
 theme: none
 layout: cover
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://images.unsplash.com/photo-1502189562704-87e622a34c85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80
 ---
 
 # Presentation title
@@ -11,8 +11,13 @@ Presentation subtitle
 ---
 
 # Slide Title
-## Slide Subtitle
 
+Slide Subtitle
+
+* Slide bullet text
+  * Slide bullet text
+  * Slide bullet text
+* Slide bullet text
 * Slide bullet text
 
 ---
@@ -21,9 +26,14 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 # Slide Title
-## Slide Subtitle
 
-* Slide bullet text
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ---
 layout: section
