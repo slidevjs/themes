@@ -1,0 +1,38 @@
+{
+  "name": "@slidev/theme-seriph",
+  "version": "0.6.7",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "description": "Seriph theme for Slidev",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "license": "MIT",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slidevjs/themes"
+  },
+  "funding": "https://github.com/sponsors/antfu",
+  "author": "antfu <anthonyfu117@hotmail.com>",
+  "homepage": "https://sli.dev",
+  "bugs": "https://github.com/slidevjs/themes/issues",
+  "peerDependencies": {
+    "@slidev/client": "^0.6.7"
+  },
+  "dependencies": {
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-vitesse": "^0.1.11"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.6.7",
+    "@slidev/client": "^0.6.7",
+    "@slidev/types": "^0.6.7"
+  }
+}
