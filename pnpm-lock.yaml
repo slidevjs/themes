@@ -4,16 +4,16 @@ importers:
 
   .:
     specifiers:
-      '@antfu/eslint-config': ^0.6.4
+      '@antfu/eslint-config': ^0.6.5
       '@antfu/ni': ^0.7.0
       '@antfu/utils': ^0.1.5
-      '@slidev/cli': ^0.6.10
-      '@slidev/client': ^0.6.10
-      '@slidev/parser': ^0.6.10
-      '@slidev/types': ^0.6.10
+      '@slidev/cli': ^0.6.11
+      '@slidev/client': ^0.6.11
+      '@slidev/parser': ^0.6.11
+      '@slidev/types': ^0.6.11
       '@types/fs-extra': ^9.0.11
       '@types/node': ^15.0.2
-      '@typescript-eslint/eslint-plugin': ^4.22.1
+      '@typescript-eslint/eslint-plugin': ^4.23.0
       bumpp: ^6.0.6
       conventional-changelog-cli: ^2.1.1
       eslint: ^7.26.0
@@ -22,7 +22,7 @@ importers:
       fs-extra: ^10.0.0
       husky: 4.3.7
       lint-staged: ^11.0.0
-      playwright-chromium: ^1.10.0
+      playwright-chromium: ^1.11.0
       prompts: ^2.4.1
       taze: ^0.4.5
       typescript: ^4.2.4
@@ -33,10 +33,10 @@ importers:
       '@antfu/eslint-config': 0.6.5_eslint@7.26.0+typescript@4.2.4
       '@antfu/ni': 0.7.0
       '@antfu/utils': 0.1.5
-      '@slidev/cli': 0.6.10_playwright-chromium@1.10.0
-      '@slidev/client': 0.6.10
-      '@slidev/parser': 0.6.10
-      '@slidev/types': 0.6.10
+      '@slidev/cli': 0.6.11_playwright-chromium@1.11.0
+      '@slidev/client': 0.6.11
+      '@slidev/parser': 0.6.11
+      '@slidev/types': 0.6.11
       '@types/fs-extra': 9.0.11
       '@types/node': 15.0.2
       '@typescript-eslint/eslint-plugin': 4.23.0_eslint@7.26.0+typescript@4.2.4
@@ -48,7 +48,7 @@ importers:
       fs-extra: 10.0.0
       husky: 4.3.7
       lint-staged: 11.0.0
-      playwright-chromium: 1.10.0
+      playwright-chromium: 1.11.0
       prompts: 2.4.1
       taze: 0.4.5
       typescript: 4.2.4
@@ -504,8 +504,8 @@ packages:
     resolution: {integrity: sha512-6RglhutqrGFMO1MNUXp95RBuYIuc8wTnMAV5MUhLmjTOy78ncwOw7RgeQ/HeymkKXRhZd0s2DNrM1rL7unk3MQ==}
     dev: true
 
-  /@slidev/cli/0.6.10_playwright-chromium@1.10.0:
-    resolution: {integrity: sha512-ntKjuQGkGjqAzMzvP79hBYRD77BphvPo07WZEhxfU0+LnLB4V5OqPRmo2UIQSzVkUK4MmDMF+Et15T3cqvUFCQ==}
+  /@slidev/cli/0.6.11_playwright-chromium@1.11.0:
+    resolution: {integrity: sha512-rg9i05zwJ5w9XywLmahDEp06prnIJmAujmWxeDLSVbbnijBDyvlBfK6IVvYVFQU6+DnsxFQFPU1lBid0gJbv3g==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -516,9 +516,9 @@ packages:
     dependencies:
       '@antfu/utils': 0.1.5
       '@iconify/json': 1.1.341
-      '@slidev/client': 0.6.10
-      '@slidev/parser': 0.6.10
-      '@slidev/types': 0.6.10
+      '@slidev/client': 0.6.11
+      '@slidev/parser': 0.6.11
+      '@slidev/types': 0.6.11
       '@vitejs/plugin-vue': 1.2.2_@vue+compiler-sfc@3.0.11
       '@vue/compiler-sfc': 3.0.11_vue@3.0.11
       cli-progress: 3.9.0
@@ -534,7 +534,7 @@ packages:
       markdown-it-link-attributes: 3.0.0
       monaco-editor: 0.23.0
       pdf-lib: 1.16.0
-      playwright-chromium: 1.10.0
+      playwright-chromium: 1.11.0
       prismjs: 1.23.0
       prompts: 2.4.1
       shiki: 0.9.3
@@ -554,13 +554,13 @@ packages:
       - vue-template-compiler
     dev: true
 
-  /@slidev/client/0.6.10:
-    resolution: {integrity: sha512-IW+rrDW07TOjPPIrfvFYRvXVJs9a5GGfZFoHxucGN/4bDgkwSv61wB332oIxzeD7wH2Ud95gm1dEhKYfXHgX/w==}
+  /@slidev/client/0.6.11:
+    resolution: {integrity: sha512-cZJ7CEiTVrm5lhNF8s4u7nrewkY2lDWcuf/MKDgbsdMMUbNlehyDOHt4J3YlZJx8d0+q/VWwSwKcK6hgZg0L1g==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@antfu/utils': 0.1.5
-      '@slidev/parser': 0.6.10
-      '@slidev/types': 0.6.10
+      '@slidev/parser': 0.6.11
+      '@slidev/types': 0.6.11
       '@vueuse/core': 4.9.2_vue@3.0.11
       '@vueuse/head': 0.5.1_vue@3.0.11
       codemirror: 5.61.0
@@ -577,16 +577,16 @@ packages:
       - '@vue/composition-api'
     dev: true
 
-  /@slidev/parser/0.6.10:
-    resolution: {integrity: sha512-EYbxSo06moUNZl0SA36Lm13j8H4Yp5ftKv/q8lQePo9+uYIPtACyu+BLa5MH4YqRvZzEOaQmgmNyo3R2MiZiUg==}
+  /@slidev/parser/0.6.11:
+    resolution: {integrity: sha512-aJydeU7L8JWMETLcNnxtRcY+E3GwmFqZzff8IAdJNKy9Uj1jivGHgSM87oYCztWeA8mOTzayxN4UcNAKhbolQA==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@slidev/types': 0.6.10
+      '@slidev/types': 0.6.11
       js-yaml: 4.1.0
     dev: true
 
-  /@slidev/types/0.6.10:
-    resolution: {integrity: sha512-r/PWpiR9zsMW/fum5D7Y8tUqbXe0QWJLkVoY3xkOwG1LynzF8TQetfVhb2l8yBJ//o2stMfDyiCWhlKfxd4EKg==}
+  /@slidev/types/0.6.11:
+    resolution: {integrity: sha512-r78VrIQWl8On2rRGjmw7qOm/xFuAoCWP1n/A93xgPvhzeymCK+RTS6yJYC3Iz+viIX2kevWqT8+w6+Zd7hB8BQ==}
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -4417,9 +4417,9 @@ packages:
       find-up: 5.0.0
     dev: true
 
-  /playwright-chromium/1.10.0:
-    resolution: {integrity: sha512-ry/60/YKGJfrnaS7j5C3+xmA2DAMv6pBE351FoTHe4Llq0WU92IL0rBYK3TkK3PzSHYtp1KdCRsRjDnJhImA3g==}
-    engines: {node: '>=10.17.0'}
+  /playwright-chromium/1.11.0:
+    resolution: {integrity: sha512-CNV58vXoyItAXOuK9rgyESBmnwVMnQg12TBJEDq1IksJo9m2Gi1maReiMOOJAFduMhicvLGgRsQfdzm44KCcxA==}
+    engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -4436,6 +4436,7 @@ packages:
       rimraf: 3.0.2
       stack-utils: 2.0.3
       ws: 7.4.5
+      yazl: 2.5.1
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -5953,6 +5954,12 @@ packages:
     dependencies:
       buffer-crc32: 0.2.13
       fd-slicer: 1.1.0
+    dev: true
+
+  /yazl/2.5.1:
+    resolution: {integrity: sha512-phENi2PLiHnHb6QBVot+dJnaAZ0xosj7p3fWl+znIjBDlnMI2PsZCJZ306BPTFOaHf5qdDEI8x5qFrSOBN5vrw==}
+    dependencies:
+      buffer-crc32: 0.2.13
     dev: true
 
   /yocto-queue/0.1.0:
