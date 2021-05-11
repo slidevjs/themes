@@ -37,6 +37,7 @@ Usage:
 ```
 ---
 layout: intro-image
+image: 'image-url'
 ---
 ```
 ![intro-image](https://i.imgur.com/976e8Hu.png)
@@ -48,6 +49,7 @@ Usage:
 ```
 ---
 layout: intro-image-right
+image: 'image-url'
 ---
 ```
 ![intro-image-right](https://i.imgur.com/dE1r2bg.png)
@@ -59,6 +61,7 @@ Usage:
 ```
 ---
 layout: image-right
+image: 'image-url'
 ---
 ```
 ![image-right](https://i.imgur.com/llEB75J.png)
