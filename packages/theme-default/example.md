@@ -62,6 +62,28 @@ layout: quote
 Attribution
 
 ---
+layout: image-left
+image: https://source.unsplash.com/collection/94734566/1920x1080
+---
+
+# Code
+
+```ts {all|2|1-6|all}
+interface User {
+  id: number
+  firstName: string
+  lastName: string
+  role: string
+}
+
+function updateUser(id: number, update: Partial<User>) {
+  const user = getUser(id)
+  const newUser = {...user, ...update}  
+  saveUser(id, newUser)
+}
+```
+
+---
 layout: center
 class: "text-center"
 ---
