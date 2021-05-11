@@ -21,40 +21,133 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-### Title `intro`
+### Title
+Usage: 
+```
+---
+layout: intro
+---
+```
 ![intro](https://i.imgur.com/gnB4oa8.png)
 
-### Title & Photo `intro-image`
+---
+
+### Title & Photo
+Usage:
+```
+---
+layout: intro-image
+---
+```
 ![intro-image](https://i.imgur.com/976e8Hu.png)
 
-### Title & Photo right `intro-image-right`
+---
+
+### Title & Photo right
+Usage:
+```
+---
+layout: intro-image-right
+---
+```
 ![intro-image-right](https://i.imgur.com/dE1r2bg.png)
 
-### Title, Bullets & Image `image-right`
+---
+
+### Title, Bullets & Image 
+Usage: 
+```
+---
+layout: image-right
+---
+```
 ![image-right](https://i.imgur.com/llEB75J.png)
 
-### Title & Bullets (default)
+---
+
+### Title & Bullets
+#### Layout used by default
 ![default](https://i.imgur.com/Glu7KWK.png)
 
-### Bullets `bullets`
+---
+
+### Bullets
+Usage: 
+```
+---
+layout: bullets
+---
+```
 ![bullets](https://i.imgur.com/rvQJMMc.png)
 
-### Section `section` 
+---
+
+### Section
+Usage: 
+```
+---
+layout: section
+---
+```
 ![section](https://i.imgur.com/vnL8XOB.png)
 
-### Statement `statement`
+---
+
+### Statement
+Usage: 
+```
+---
+layout: statement
+---
+```
 ![satement](https://i.imgur.com/Em3e8g3.png)
 
-### Big fact `fact`
+---
+
+### Big fact
+Usage: 
+```
+---
+layout: fact
+---
+```
 ![fact](https://i.imgur.com/hPL7qOj.png)
 
-### Quote `quote`
+---
+
+### Quote
+Usage: 
+```
+---
+layout: quote
+---
+```
 ![quote](https://i.imgur.com/DMpzz0g.png)
 
-### Photo - 3 `3-images`
+---
+
+### Photo - 3
+Usage: 
+```
+---
+layout: 3-images
+imageLeft: 'image-url'
+imageTopRight: 'image-url'
+imageBottomRight: 'image-url'
+---
+```   
 ![3-images](https://i.imgur.com/Lun6FnS.png)
 
-### Photo `image`
+---
+
+### Photo
+Usage: 
+```
+---
+layout: image
+image: 'image-url'
+---
+```
 ![image](https://i.imgur.com/S9TQ2AZ.png)
 
 
