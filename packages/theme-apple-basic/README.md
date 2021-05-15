@@ -27,6 +27,17 @@ Usage:
 ---
 layout: intro
 ---
+
+# Presentation title
+
+Presentation subtitle
+
+<div class="absolute bottom-10">
+  <span class="font-700">
+    Author and Date
+  </span>
+</div>
+
 ```
 ![intro](https://i.imgur.com/gnB4oa8.png)
 
@@ -39,6 +50,18 @@ Usage:
 layout: intro-image
 image: 'image-url'
 ---
+
+<div class="absolute top-10">
+  <span class="font-700">
+    Author and Date
+  </span>
+</div>
+
+<div class="absolute bottom-10">
+  <h1>Presentation title</h1>
+  <p>Presentation subtitle</p>
+</div>
+
 ```
 ![intro-image](https://i.imgur.com/976e8Hu.png)
 
@@ -51,6 +74,10 @@ Usage:
 layout: intro-image-right
 image: 'image-url'
 ---
+
+# Slide Title
+## Slide Subtitle
+
 ```
 ![intro-image-right](https://i.imgur.com/dE1r2bg.png)
 
@@ -63,6 +90,12 @@ Usage:
 layout: image-right
 image: 'image-url'
 ---
+
+# Slide Title
+## Slide Subtitle
+
+* Slide bullet text
+
 ```
 ![image-right](https://i.imgur.com/llEB75J.png)
 
@@ -80,6 +113,9 @@ Usage:
 ---
 layout: bullets
 ---
+
+* Slide bullet text
+
 ```
 ![bullets](https://i.imgur.com/rvQJMMc.png)
 
@@ -91,6 +127,9 @@ Usage:
 ---
 layout: section
 ---
+
+# Section Title
+
 ```
 ![section](https://i.imgur.com/vnL8XOB.png)
 
@@ -102,6 +141,9 @@ Usage:
 ---
 layout: statement
 ---
+
+# Statement
+
 ```
 ![satement](https://i.imgur.com/Em3e8g3.png)
 
@@ -113,6 +155,11 @@ Usage:
 ---
 layout: fact
 ---
+
+# 100%
+Fact information
+
+
 ```
 ![fact](https://i.imgur.com/hPL7qOj.png)
 
@@ -124,6 +171,10 @@ Usage:
 ---
 layout: quote
 ---
+
+# "Notable quote"
+Attribution
+
 ```
 ![quote](https://i.imgur.com/DMpzz0g.png)
 
