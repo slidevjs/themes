@@ -7,7 +7,7 @@ export default mergeWindicssConfig(
   defineConfig({
     extract: {
       include: [
-        resolve(__dirname, '**/*.{vue}'),
+        resolve(__dirname, '**/*.vue'),
       ],
       exclude: [
         resolve(__dirname, 'node_modules'),
