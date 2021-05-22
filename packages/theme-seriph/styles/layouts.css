@@ -1,6 +1,10 @@
+:root {
+  --slidev-theme-primary: #5d8392;
+}
+
 .slidev-layout {
   h1 {
-    @apply text-primary;
+    color: var(--slidev-theme-primary);
   }
 }
 

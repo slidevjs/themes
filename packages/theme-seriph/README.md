@@ -14,6 +14,15 @@ theme: <b>seriph</b>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
+## Customization
+
+```yaml
+---
+theme: serif
+themeConfig:
+  primary: '#5d8392'
+---
+
 ## License
 
 MIT License © 2021 [Anthony Fu](https://github.com/antfu)
