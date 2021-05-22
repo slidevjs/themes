@@ -21,11 +21,3 @@ jobs:
       - run: nr ci:publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-      - uses: EndBug/add-and-commit@v7
-        with:
-          add: '**/CHANGELOG.md'
-          branch: 'main'
-          message: 'chore: update changelog'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
