@@ -26,6 +26,7 @@
     "@slidev/client": "^0.6.7"
   },
   "dependencies": {
+    "@slidev/types": "^0.13.13",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2",
     "theme-vitesse": "^0.1.11"
