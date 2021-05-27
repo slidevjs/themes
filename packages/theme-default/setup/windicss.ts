@@ -1,5 +1,5 @@
 import { resolve } from 'path'
-import { defineWindiSetup } from 'packages/theme-seriph/node_modules/@slidev/types'
+import { defineWindiSetup } from '@slidev/types'
 
 export default defineWindiSetup(() => ({
   extract: {
