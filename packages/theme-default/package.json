@@ -23,7 +23,8 @@
   "homepage": "https://sli.dev",
   "bugs": "https://github.com/slidevjs/themes/issues",
   "peerDependencies": {
-    "@slidev/client": "^0.6.7"
+    "@slidev/client": "*",
+    "shiki": "*"
   },
   "dependencies": {
     "@slidev/types": "^0.13.13",

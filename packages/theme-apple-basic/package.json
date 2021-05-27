@@ -25,7 +25,8 @@
     "screenshot": "slidev export example.md --format png"
   },
   "peerDependencies": {
-    "@slidev/client": "^0.6.7"
+    "@slidev/client": "*",
+    "shiki": "*"
   },
   "dependencies": {
     "codemirror-theme-vars": "^0.1.1",
