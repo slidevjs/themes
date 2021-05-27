@@ -19,4 +19,5 @@ await $`pnpx conventional-changelog -p angular -i CHANGELOG.md -s --commit-path 
 await $`git add .`
 await $`git commit -m ${msg}`
 await $`git tag ${tag}`
-await $`git push --follow-tags`
+await $`git push`
+await $`git push --tags`
