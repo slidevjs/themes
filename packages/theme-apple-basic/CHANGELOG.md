@@ -1,3 +1,18 @@
+# 0.14.0 (2021-05-27)
+
+
+### Bug Fixes
+
+* embbed layout helper ([ee4cd9a](https://github.com/slidevjs/themes/commit/ee4cd9a1456da59ddb8baafb6a4783f94200f42c))
+
+
+### Features
+
+* upgrade to slidev 0.14 ([5b97e29](https://github.com/slidevjs/themes/commit/5b97e29c45c51ef724252df2b711d1b30c7208cd))
+* **style:** update slidev code background using prism values ([3c9da06](https://github.com/slidevjs/themes/commit/3c9da061865d15ea40efffd550b8c1ccbcd95c61))
+
+
+
 ## 0.1.3 (2021-05-20)
 
 
