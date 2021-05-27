@@ -58,10 +58,12 @@ importers:
 
   packages/theme-apple-basic:
     specifiers:
+      '@slidev/types': ^0.14.0
       codemirror-theme-vars: ^0.1.1
       prism-theme-vars: ^0.2.2
       theme-vitesse: ^0.1.11
     dependencies:
+      '@slidev/types': 0.14.0
       codemirror-theme-vars: 0.1.1
       prism-theme-vars: 0.2.2
       theme-vitesse: 0.1.11
