@@ -1,7 +1,6 @@
 import { defineShikiSetup } from '@slidev/types'
-import { loadTheme } from 'shiki'
 
-export default defineShikiSetup(async() => {
+export default defineShikiSetup(async({ loadTheme }) => {
   return {
     theme: {
       dark: await loadTheme(require.resolve('theme-vitesse/themes/vitesse-dark.json')),

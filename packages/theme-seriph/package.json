@@ -22,15 +22,10 @@
   "author": "antfu <anthonyfu117@hotmail.com>",
   "homepage": "https://sli.dev",
   "bugs": "https://github.com/slidevjs/themes/issues",
-  "peerDependencies": {
-    "@slidev/client": "*"
-  },
   "dependencies": {
-    "@slidev/types": "^0.13.13",
+    "@slidev/types": "^0.14.0",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2",
-    "shiki": "*",
-    "theme-vitesse": "^0.1.11",
-    "vite-plugin-windicss": "*"
+    "theme-vitesse": "^0.1.11"
   }
 }

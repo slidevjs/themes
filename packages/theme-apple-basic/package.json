@@ -24,11 +24,8 @@
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png"
   },
-  "peerDependencies": {
-    "@slidev/client": "*",
-    "shiki": "*"
-  },
   "dependencies": {
+    "@slidev/types": "^0.14.0",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2",
     "theme-vitesse": "^0.1.11"
