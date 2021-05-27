@@ -1,6 +1,6 @@
 {
   "name": "@slidev/theme-seriph",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "engines": {
     "node": ">=14.0.0"
   },
