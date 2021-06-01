@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import Background from '../assets/page-3.vue'
+import Background from '../assets/page-5.vue'
 </script>
 
 <template>
-  <div class="slidev-layout section section-1 grid">
-    <div class="my-auto w-full px-10 pt-15">
+  <div class="slidev-layout default-3 dark">
+    <div class="px-[8%] py-[2%]">
       <slot />
     </div>
     <Background class="layout-background" />
@@ -12,7 +12,7 @@ import Background from '../assets/page-3.vue'
 </template>
 
 <style scoped>
-.slidev-layout.section-1 {
+.slidev-layout.default-3 {
   color: #EBEEF2;
 }
 </style>

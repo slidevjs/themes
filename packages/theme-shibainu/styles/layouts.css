@@ -22,6 +22,7 @@
 
 .layout-background {
   z-index: -1;
+  transform: scale(1.001);
   @apply absolute w-full h-full left-0 top-0;
 }
 

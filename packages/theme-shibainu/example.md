@@ -10,7 +10,7 @@ Presentation subtitle
 
 ---
 
-# Slide Title
+# Layout `default`
 
 Slide Subtitle
 
@@ -24,7 +24,7 @@ Slide Subtitle
 layout: center
 ---
 
-# Layout Center
+# Layout `center`
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -32,13 +32,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 layout: section
 ---
 
-# Section Title
+# Layout `section`
 
 ---
 layout: default-2
 ---
 
-# Slide Title
+# Layout `default-2`
 
 Colons can be used to align columns.
 
@@ -48,11 +48,49 @@ Colons can be used to align columns.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+
 ---
-layout: section
+layout: default-3
 ---
 
-# Section Title
+# Layout `default-3`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+```ts {all|2|1-6|all}
+interface User {
+  id: number
+  firstName: string
+  lastName: string
+  role: string
+}
+
+function updateUser(id: number, update: Partial<User>) {
+  const user = getUser(id)
+  const newUser = {...user, ...update}  
+  saveUser(id, newUser)
+}
+```
+
+---
+layout: right
+---
+
+# Layout `right`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+---
+layout: section-2
+---
+
+# Section 2
 
 ---
 layout: statement
@@ -73,28 +111,6 @@ layout: quote
 
 # "Notable quote"
 Attribution
-
----
-layout: image-left
-image: https://source.unsplash.com/collection/94734566/1920x1080
----
-
-# Code
-
-```ts {all|2|1-6|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
-}
-```
 
 ---
 layout: center
