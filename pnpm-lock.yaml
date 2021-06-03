@@ -7,12 +7,12 @@ importers:
       '@antfu/eslint-config': ^0.6.5
       '@antfu/ni': ^0.7.0
       '@antfu/utils': ^0.1.6
-      '@slidev/cli': ^0.16.1
-      '@slidev/client': ^0.16.1
-      '@slidev/parser': ^0.16.1
-      '@slidev/types': ^0.16.1
+      '@slidev/cli': ^0.17.0
+      '@slidev/client': ^0.17.0
+      '@slidev/parser': ^0.17.0
+      '@slidev/types': ^0.17.0
       '@types/fs-extra': ^9.0.11
-      '@types/node': ^15.6.1
+      '@types/node': ^15.9.0
       '@typescript-eslint/eslint-plugin': ^4.26.0
       bumpp: ^6.0.6
       conventional-changelog-cli: ^2.1.1
@@ -33,12 +33,12 @@ importers:
       '@antfu/eslint-config': 0.6.5_eslint@7.27.0+typescript@4.3.2
       '@antfu/ni': 0.7.0
       '@antfu/utils': 0.1.6
-      '@slidev/cli': 0.16.1_playwright-chromium@1.11.1
-      '@slidev/client': 0.16.1
-      '@slidev/parser': 0.16.1
-      '@slidev/types': 0.16.1
+      '@slidev/cli': 0.17.0_playwright-chromium@1.11.1
+      '@slidev/client': 0.17.0
+      '@slidev/parser': 0.17.0
+      '@slidev/types': 0.17.0
       '@types/fs-extra': 9.0.11
-      '@types/node': 15.6.1
+      '@types/node': 15.9.0
       '@typescript-eslint/eslint-plugin': 4.26.0_eslint@7.27.0+typescript@4.3.2
       bumpp: 6.0.6
       conventional-changelog-cli: 2.1.1
@@ -58,36 +58,36 @@ importers:
 
   packages/theme-apple-basic:
     specifiers:
-      '@slidev/types': ^0.16.1
+      '@slidev/types': ^0.17.0
       codemirror-theme-vars: ^0.1.1
       prism-theme-vars: ^0.2.2
       theme-vitesse: ^0.1.11
     dependencies:
-      '@slidev/types': 0.16.1
+      '@slidev/types': 0.17.0
       codemirror-theme-vars: 0.1.1
       prism-theme-vars: 0.2.2
       theme-vitesse: 0.1.11
 
   packages/theme-default:
     specifiers:
-      '@slidev/types': ^0.16.1
+      '@slidev/types': ^0.17.0
       codemirror-theme-vars: ^0.1.1
       prism-theme-vars: ^0.2.2
       theme-vitesse: ^0.1.11
     dependencies:
-      '@slidev/types': 0.16.1
+      '@slidev/types': 0.17.0
       codemirror-theme-vars: 0.1.1
       prism-theme-vars: 0.2.2
       theme-vitesse: 0.1.11
 
   packages/theme-seriph:
     specifiers:
-      '@slidev/types': ^0.16.1
+      '@slidev/types': ^0.17.0
       codemirror-theme-vars: ^0.1.1
       prism-theme-vars: ^0.2.2
       theme-vitesse: ^0.1.11
     dependencies:
-      '@slidev/types': 0.16.1
+      '@slidev/types': 0.17.0
       codemirror-theme-vars: 0.1.1
       prism-theme-vars: 0.2.2
       theme-vitesse: 0.1.11
@@ -526,8 +526,8 @@ packages:
     resolution: {integrity: sha512-15spi3V28QdevleWBNXE4pIls3nFZmBbUGrW9IVPwiQczuSb9n76TCB4bsk8TSel+I1OkHEdPhu5QKMfY6rQHA==}
     dev: true
 
-  /@slidev/cli/0.16.1_playwright-chromium@1.11.1:
-    resolution: {integrity: sha512-W63pfn47/qV1HRggdH+akIBNyTtzAZjJl9I49EC/IC0ggbWXzZD7+d3wbYFrHShnQ0csOwsPASQQbSd2vlZkBw==}
+  /@slidev/cli/0.17.0_playwright-chromium@1.11.1:
+    resolution: {integrity: sha512-Mmx7w3cFxjxlgLj93FsK4LqfEu59cm6BRaoovZHJZpooAQr5EYCzVR7vVo0PaC0VDuOviwwtVgIcjyXcezsGcg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -538,10 +538,10 @@ packages:
     dependencies:
       '@antfu/utils': 0.1.6
       '@iconify/json': 1.1.341
-      '@slidev/client': 0.16.1_vite@2.3.4
-      '@slidev/parser': 0.16.1
-      '@slidev/types': 0.16.1
-      '@vitejs/plugin-vue': 1.2.2_@vue+compiler-sfc@3.0.11
+      '@slidev/client': 0.17.0_vite@2.3.6
+      '@slidev/parser': 0.17.0
+      '@slidev/types': 0.17.0
+      '@vitejs/plugin-vue': 1.2.3_@vue+compiler-sfc@3.0.11
       '@vue/compiler-sfc': 3.0.11_vue@3.0.11
       cli-progress: 3.9.0
       codemirror: 5.61.1
@@ -549,7 +549,7 @@ packages:
       debug: 4.3.2
       fast-glob: 3.2.5
       fs-extra: 10.0.0
-      import-from: 3.0.0
+      import-from: 4.0.0
       is-installed-globally: 0.4.0
       jiti: 1.10.1
       js-base64: 3.6.1
@@ -568,12 +568,12 @@ packages:
       resolve-global: 1.0.0
       shiki: 0.9.4
       sirv: 1.0.12
-      vite: 2.3.4
-      vite-plugin-components: 0.10.4_vite@2.3.4
+      vite: 2.3.6
+      vite-plugin-components: 0.10.4_vite@2.3.6
       vite-plugin-icons: 0.6.0_e523db1fe0858fa2549c23914df6ead9
-      vite-plugin-md: 0.6.7_vite@2.3.4
-      vite-plugin-remote-assets: 0.2.2_vite@2.3.4
-      vite-plugin-windicss: 0.16.7_vite@2.3.4
+      vite-plugin-md: 0.6.7_vite@2.3.6
+      vite-plugin-remote-assets: 0.2.2_vite@2.3.6
+      vite-plugin-windicss: 0.16.7_vite@2.3.6
       vue: 3.0.11
       windicss: 3.0.12
       yargs: 17.0.1
@@ -583,13 +583,13 @@ packages:
       - vue-template-compiler
     dev: true
 
-  /@slidev/client/0.16.1:
-    resolution: {integrity: sha512-uHuJvrc72fFjxwrYdsLl5beCc09uFH2HMw328DPuVeCCFrvFSRYEwqk9k8afJQZwezqTpy5nAsvz65vS+4b1BA==}
+  /@slidev/client/0.17.0:
+    resolution: {integrity: sha512-8ugzZptCK3utCLUHCJC3NaSd0MK1qr4rxaM9DUSV82rLf3WTniEAiWcz0ftZC8ZHIf6LTp1vbmHTuLGFhww0Ew==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@antfu/utils': 0.1.6
-      '@slidev/parser': 0.16.1
-      '@slidev/types': 0.16.1
+      '@slidev/parser': 0.17.0
+      '@slidev/types': 0.17.0
       '@vueuse/core': 4.11.2_vue@3.0.11
       '@vueuse/head': 0.5.1_vue@3.0.11
       '@vueuse/motion': 1.5.6_vue@3.0.11
@@ -614,13 +614,13 @@ packages:
       - vite
     dev: true
 
-  /@slidev/client/0.16.1_vite@2.3.4:
-    resolution: {integrity: sha512-uHuJvrc72fFjxwrYdsLl5beCc09uFH2HMw328DPuVeCCFrvFSRYEwqk9k8afJQZwezqTpy5nAsvz65vS+4b1BA==}
+  /@slidev/client/0.17.0_vite@2.3.6:
+    resolution: {integrity: sha512-8ugzZptCK3utCLUHCJC3NaSd0MK1qr4rxaM9DUSV82rLf3WTniEAiWcz0ftZC8ZHIf6LTp1vbmHTuLGFhww0Ew==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@antfu/utils': 0.1.6
-      '@slidev/parser': 0.16.1
-      '@slidev/types': 0.16.1
+      '@slidev/parser': 0.17.0
+      '@slidev/types': 0.17.0
       '@vueuse/core': 4.11.2_vue@3.0.11
       '@vueuse/head': 0.5.1_vue@3.0.11
       '@vueuse/motion': 1.5.6_vue@3.0.11
@@ -635,7 +635,7 @@ packages:
       prettier: 2.3.0
       recordrtc: 5.6.2
       resolve: 1.20.0
-      vite-plugin-windicss: 0.16.7_vite@2.3.4
+      vite-plugin-windicss: 0.16.7_vite@2.3.6
       vue: 3.0.11
       vue-router: 4.0.8_vue@3.0.11
       windicss: 3.0.12
@@ -645,16 +645,21 @@ packages:
       - vite
     dev: true
 
-  /@slidev/parser/0.16.1:
-    resolution: {integrity: sha512-+IAmlqQI8qE4SF1GoSH4gj1DNX0v14bZL/UJs3cks9paEMcX7TIsdbM7veZE7Y3lOA9x5tGTtaLPvP1cg/SOlw==}
+  /@slidev/parser/0.17.0:
+    resolution: {integrity: sha512-AD8m0dj/+NTuxXqRYdZYWQn1ynTAkeynXTLpbtZfoFESlL0AAKqg+EbkOrB8yCjdvNsxdHLIwnTeOF489ncCEA==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@slidev/types': 0.16.1
+      '@slidev/types': 0.17.0
       js-yaml: 4.1.0
     dev: true
 
   /@slidev/types/0.16.1:
     resolution: {integrity: sha512-PavwbTolMOL0iAlvXvTRYxNYRWhHo0MRfHxn0hlMqQKq2B1vgG1jz1iGOqWR9/UVsj6O2zEJV3H2aTLPtLj2wg==}
+    engines: {node: '>=14.0.0'}
+    dev: false
+
+  /@slidev/types/0.17.0:
+    resolution: {integrity: sha512-WWTf45+okQ1u6MN3jmv4qoYpvax3ho11YI/jyQ/2TNWttTrWLeHv1nhEMK/u4xu+eifsn7t/jwr/4o9cHidaZQ==}
     engines: {node: '>=14.0.0'}
 
   /@tootallnate/once/1.1.2:
@@ -683,7 +688,7 @@ packages:
   /@types/node-fetch/2.5.10:
     resolution: {integrity: sha512-IpkX0AasN44hgEad0gEF/V6EgR5n69VEqPEgnmoM8GsIGro3PowbWs4tR6IhxUTyPLpOn+fiGG6nrQhcmoCuIQ==}
     dependencies:
-      '@types/node': 15.6.1
+      '@types/node': 15.9.0
       form-data: 3.0.1
     dev: true
 
@@ -696,8 +701,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/node/15.6.1:
-    resolution: {integrity: sha512-7EIraBEyRHEe7CH+Fm1XvgqU6uwZN8Q7jppJGcqjROMT29qhAuuOxYB1uEY5UMYQKEmA5D+5tBnhdaPXSsLONA==}
+  /@types/node/15.9.0:
+    resolution: {integrity: sha512-AR1Vq1Ei1GaA5FjKL5PBqblTZsL5M+monvGSZwe6sSIdGiuu7Xr/pNwWJY+0ZQuN8AapD/XMB5IzBAyYRFbocA==}
     dev: true
 
   /@types/normalize-package-data/2.4.0:
@@ -906,11 +911,11 @@ packages:
       eslint-visitor-keys: 2.1.0
     dev: true
 
-  /@vitejs/plugin-vue/1.2.2_@vue+compiler-sfc@3.0.11:
-    resolution: {integrity: sha512-5BI2WFfs/Z0pAV4S/IQf1oH3bmFYlL5ATMBHgTt1Lf7hAnfpNd5oUAAs6hZPfk3QhvyUQgtk0rJBlabwNFcBJQ==}
+  /@vitejs/plugin-vue/1.2.3_@vue+compiler-sfc@3.0.11:
+    resolution: {integrity: sha512-LlnLpObkGKZ+b7dcpL4T24l13nPSHLjo+6Oc7MbZiKz5PMAUzADfNJ3EKfYIQ0l0969nxf2jp/9vsfnuJ7h6fw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
-      '@vue/compiler-sfc': ^3.0.6
+      '@vue/compiler-sfc': ^3.0.8
     dependencies:
       '@vue/compiler-sfc': 3.0.11_vue@3.0.11
     dev: true
@@ -3492,11 +3497,9 @@ packages:
       resolve-from: 4.0.0
     dev: true
 
-  /import-from/3.0.0:
-    resolution: {integrity: sha512-CiuXOFFSzkU5x/CR0+z7T91Iht4CXgfCxVOFRhh2Zyhg5wOpWvvDLQUsWl+gcN+QscYBjez8hDCt85O7RLDttQ==}
-    engines: {node: '>=8'}
-    dependencies:
-      resolve-from: 5.0.0
+  /import-from/4.0.0:
+    resolution: {integrity: sha512-P9J71vT5nLlDeV8FHs5nNxaLbrpfAV5cF5srvbZfpwpcJoM/xZR3hiv+q+SAnuSmuGbXMWud063iIMx/V/EWZQ==}
+    engines: {node: '>=12.2'}
     dev: true
 
   /import-modules/2.1.0:
@@ -6247,7 +6250,7 @@ packages:
       extsprintf: 1.3.0
     dev: true
 
-  /vite-plugin-components/0.10.4_vite@2.3.4:
+  /vite-plugin-components/0.10.4_vite@2.3.6:
     resolution: {integrity: sha512-QOGd+7IE4EonPGMlxmudj0HadVxKzCdvaZmZcRgap4gE8F55sAIztuAQN4IHACEKuappWsB6XpMAY1iVrJUqog==}
     peerDependencies:
       vite: ^2.0.0-beta.69
@@ -6257,7 +6260,7 @@ packages:
       fast-glob: 3.2.5
       magic-string: 0.25.7
       minimatch: 3.0.4
-      vite: 2.3.4
+      vite: 2.3.6
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6275,17 +6278,17 @@ packages:
       vue-template-es2015-compiler: 1.9.1
     dev: true
 
-  /vite-plugin-md/0.6.7_vite@2.3.4:
+  /vite-plugin-md/0.6.7_vite@2.3.6:
     resolution: {integrity: sha512-R9i61r1y6gfelJKtHiHkw6NOkucFzGRgy7VL7bqMufiSh1UNyYKZrpiQtagzavpBlJSVk34lfEyfyKpQyeuocQ==}
     peerDependencies:
       vite: ^2.0.0
     dependencies:
       gray-matter: 4.0.3
       markdown-it: 12.0.6
-      vite: 2.3.4
+      vite: 2.3.6
     dev: true
 
-  /vite-plugin-remote-assets/0.2.2_vite@2.3.4:
+  /vite-plugin-remote-assets/0.2.2_vite@2.3.6:
     resolution: {integrity: sha512-Hl2g1EGJW7jHjNKQ0hf96LJEbfmintfQLBIgKJkyFPyjO1NH3gNUheFgBoxi6G4/nbE9hHzpIIr30iwm1NxLlQ==}
     peerDependencies:
       vite: ^2.0.0
@@ -6294,7 +6297,7 @@ packages:
       debug: 4.3.2
       fs-extra: 9.1.0
       magic-string: 0.25.7
-      vite: 2.3.4
+      vite: 2.3.6
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6312,7 +6315,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-windicss/0.16.7_vite@2.3.4:
+  /vite-plugin-windicss/0.16.7_vite@2.3.6:
     resolution: {integrity: sha512-fNBLO2EBdQsJNU3IyehSmqPdrHc6Ve+hPYDaf5SrW8nGd9Wbd8ZVh6cX/1blRcjMw0qOjgcx7GM8pRWBjhzt3Q==}
     peerDependencies:
       vite: ^2.0.1
@@ -6320,18 +6323,18 @@ packages:
       '@windicss/plugin-utils': 0.16.7
       chalk: 4.1.1
       debug: 4.3.2
-      vite: 2.3.4
+      vite: 2.3.6
       windicss: 3.0.12
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.3.4:
-    resolution: {integrity: sha512-7orxrF65+Q5n/sMCnO91S8OS0gkPJ7g+y3bLlc7CPCXVswK8to1T8YycCk9SZh+AcIc0TuN6YajWTBFS5atMNA==}
+  /vite/2.3.6:
+    resolution: {integrity: sha512-fsEpNKDHgh3Sn66JH06ZnUBnIgUVUtw6ucDhlOj1CEqxIkymU25yv1/kWDPlIjyYHnalr0cN6V+zzUJ+fmWHYw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
-      esbuild: 0.11.23
+      esbuild: 0.12.5
       postcss: 8.2.14
       resolve: 1.20.0
       rollup: 2.47.0
@@ -6558,7 +6561,7 @@ packages:
     engines: {node: '>= 14.8.0'}
     hasBin: true
     dependencies:
-      '@types/node': 15.6.1
+      '@types/node': 15.9.0
       '@types/node-fetch': 2.5.10
       chalk: 4.1.1
       node-fetch: 2.6.1
