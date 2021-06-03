@@ -51,29 +51,24 @@ Colons can be used to align columns.
 
 ---
 layout: default-3
+class: 'grid text-center h-full content-center'
 ---
 
-# Layout `default-3`
+<div class="grid grid-cols-3 gap-4 text-center w-140 m-auto">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<div class="m-auto w-35 h-35 rounded-full bg-[#bf926b]"></div>
+<div class="m-auto w-35 h-35 rounded-full bg-[#bf926b]"></div>
+<div class="m-auto w-35 h-35 rounded-full bg-[#bf926b]"></div>
 
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div>Lorem</div>
+<div>Ipsum</div>
+<div>Dolor</div>
 
+</div>
 
-```ts {all|2|1-6|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
+<br>
 
-function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
-}
-```
+Layout `default-3`
 
 ---
 layout: right
@@ -85,38 +80,63 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-
 ---
 layout: section-2
 ---
 
 # Section 2
 
----
-layout: statement
----
-
-# Statement
 
 ---
-layout: fact
+layout: default-4
 ---
 
-# 100%
-Fact information
+# Layout `default-4`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+---
+layout: default-5
+---
+
+# Layout `default-5`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+---
+layout: default-6
+---
+
+# Layout `default-6`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+---
+layout: default-7
+---
+
+# Layout `default-7`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+---
+layout: section-3
+---
+
+# Section 3
 
 ---
 layout: quote
 ---
 
-# "Notable quote"
-Attribution
-
----
-layout: center
-class: "text-center"
----
-
-# Learn More
-
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+# Thanks
