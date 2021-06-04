@@ -10,11 +10,4 @@ export default defineWindiSetup(() => ({
   shortcuts: {
     'bg-main': 'bg-white text-[#181818] dark:(bg-[#000] text-[#fff])',
   },
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: '"Helvetica Neue"',
-      },
-    },
-  },
 }))

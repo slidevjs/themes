@@ -2,6 +2,10 @@
   "name": "@slidev/theme-apple-basic",
   "version": "0.14.1",
   "description": "Apple like theme for Slidev",
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -16,7 +20,13 @@
   "author": "Jeremy Meissner <jymeissner@gmail.com>",
   "slidev": {
     "colorSchema": "both",
-    "highlighter": "all"
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Helvetica Neue",
+        "local": "Helvetica Neue"
+      }
+    }
   },
   "scripts": {
     "dev": "slidev example.md --open",
@@ -25,7 +35,7 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^0.17.0",
+    "@slidev/types": "^0.19.3",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2",
     "theme-vitesse": "^0.1.11"
