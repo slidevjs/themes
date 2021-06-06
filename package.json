@@ -27,10 +27,10 @@
     "@antfu/eslint-config": "^0.6.5",
     "@antfu/ni": "^0.7.0",
     "@antfu/utils": "^0.1.6",
-    "@slidev/cli": "^0.18.1",
-    "@slidev/client": "^0.18.1",
-    "@slidev/parser": "^0.18.1",
-    "@slidev/types": "^0.18.1",
+    "@slidev/cli": "^0.19.3",
+    "@slidev/client": "^0.19.3",
+    "@slidev/parser": "^0.19.3",
+    "@slidev/types": "^0.19.3",
     "@types/fs-extra": "^9.0.11",
     "@types/node": "^15.12.0",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
@@ -46,7 +46,10 @@
     "prompts": "^2.4.1",
     "taze": "^0.4.5",
     "typescript": "^4.3.2",
+<<<<<<< HEAD
     "vite-plugin-windicss": "^0.17.0",
+=======
+>>>>>>> main
     "vue": "^3.0.11",
     "zx": "^1.14.1"
   }
