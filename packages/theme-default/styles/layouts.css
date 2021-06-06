@@ -1,11 +1,4 @@
-.slidev-layout.cover,
-.slidev-layout.intro {
-  @apply h-full grid;
-
-  h1 {
-    @apply text-6xl leading-20;
-  }
-
+.slidev-layout {
   h1 + p {
     @apply -mt-2 opacity-50 mb-4;
   }
@@ -20,6 +13,15 @@
 
   h3:not(.opacity-100) {
     @apply opacity-40;
+  }
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20;
   }
 }
 

@@ -1,10 +1,10 @@
-import { join } from 'path'
+import { join, dirname } from 'path'
 import { promises as fs } from 'fs'
 import fg from 'fast-glob'
 import prompts from 'prompts'
 
 export async function getPackagePaths() {
-  return await fg('./packages/*', { onlyDirectories: true, absolute: true })
+  return (await fg('./packages/*/package.json', { absolute: true })).map(i => dirname(i))
 }
 
 export async function getPackageJSON(dir) {
