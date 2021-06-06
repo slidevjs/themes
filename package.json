@@ -46,10 +46,6 @@
     "prompts": "^2.4.1",
     "taze": "^0.4.5",
     "typescript": "^4.3.2",
-<<<<<<< HEAD
-    "vite-plugin-windicss": "^0.17.0",
-=======
->>>>>>> main
     "vue": "^3.0.11",
     "zx": "^1.14.1"
   }
