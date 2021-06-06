@@ -13,12 +13,4 @@ export default defineWindiSetup(() => ({
   shortcuts: {
     'bg-main': 'bg-white text-[#555] dark:(bg-[#121212] text-[#ddd])',
   },
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: '"Titillium Web",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
-        mono: '"PT Mono", monospace',
-      },
-    },
-  },
 }))

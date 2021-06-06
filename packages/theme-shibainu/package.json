@@ -11,19 +11,24 @@
   ],
   "license": "MIT",
   "slidev": {
-    "colorSchema": "both",
-    "highlighter": "all"
+    "colorSchema": "dark",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Titillium Web",
+        "mono": "Fira Code"
+      }
+    }
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/slidevjs/themes"
   },
-  "funding": "https://github.com/sponsors/antfu",
-  "author": "antfu <anthonyfu117@hotmail.com>",
+  "author": "Inès <ines@inesfendi.com>",
   "homepage": "https://sli.dev",
   "bugs": "https://github.com/slidevjs/themes/issues",
   "dependencies": {
-    "@slidev/types": "^0.18.1",
+    "@slidev/types": "^0.19.6",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2",
     "theme-vitesse": "^0.1.11"
