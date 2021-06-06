@@ -1,0 +1,38 @@
+{
+  "name": "@slidev/theme-bricks",
+  "version": "0.19.0",
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.2"
+  },
+  "description": "Bricks theme for Slidev",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slidevjs/themes"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Signika Negative",
+        "serif": "Sigmar One",
+        "mono": "Fira Code"
+      }
+    }
+  },
+  "author": "Inès <ines@inesfendi.com>",
+  "homepage": "https://sli.dev",
+  "bugs": "https://github.com/slidevjs/themes/issues",
+  "dependencies": {
+    "@slidev/types": "^0.19.6",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-vitesse": "^0.1.11"
+  }
+}
