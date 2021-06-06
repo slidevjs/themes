@@ -12,5 +12,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  @apply font-serif grid;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+
+  h1 + p {
+    @apply text-2xl -mt-6;
+  }
 }
 </style>
