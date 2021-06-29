@@ -1,24 +1,22 @@
 {
-  "name": "@slidev/theme-seriph",
-  "version": "0.19.1",
+  "name": "@slidev/theme-shibainu",
+  "version": "0.0.1",
   "engines": {
-    "node": ">=14.0.0",
-    "slidev": ">=0.19.3"
+    "node": ">=14.0.0"
   },
-  "description": "Seriph theme for Slidev",
+  "description": "Shibainu theme for Slidev",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
   "license": "MIT",
   "slidev": {
-    "colorSchema": "both",
+    "colorSchema": "dark",
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "mono": "PT Mono",
-        "sans": "PT Serif",
-        "serif": "PT Serif"
+        "sans": "Titillium Web",
+        "mono": "Fira Code"
       }
     }
   },
@@ -26,8 +24,7 @@
     "type": "git",
     "url": "https://github.com/slidevjs/themes"
   },
-  "funding": "https://github.com/sponsors/antfu",
-  "author": "antfu <anthonyfu117@hotmail.com>",
+  "author": "Inès <ines@inesfendi.com>",
   "homepage": "https://sli.dev",
   "bugs": "https://github.com/slidevjs/themes/issues",
   "dependencies": {

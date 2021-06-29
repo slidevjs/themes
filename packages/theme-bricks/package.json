@@ -1,33 +1,32 @@
 {
-  "name": "@slidev/theme-seriph",
-  "version": "0.19.1",
+  "name": "@slidev/theme-bricks",
+  "version": "0.0.1",
   "engines": {
     "node": ">=14.0.0",
-    "slidev": ">=0.19.3"
+    "slidev": ">=0.19.2"
   },
-  "description": "Seriph theme for Slidev",
+  "description": "Bricks theme for Slidev",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
   "license": "MIT",
-  "slidev": {
-    "colorSchema": "both",
-    "highlighter": "all",
-    "defaults": {
-      "fonts": {
-        "mono": "PT Mono",
-        "sans": "PT Serif",
-        "serif": "PT Serif"
-      }
-    }
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/slidevjs/themes"
   },
-  "funding": "https://github.com/sponsors/antfu",
-  "author": "antfu <anthonyfu117@hotmail.com>",
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Signika Negative",
+        "serif": "Sigmar One",
+        "mono": "Fira Code"
+      }
+    }
+  },
+  "author": "Inès <ines@inesfendi.com>",
   "homepage": "https://sli.dev",
   "bugs": "https://github.com/slidevjs/themes/issues",
   "dependencies": {
