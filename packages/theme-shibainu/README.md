@@ -19,10 +19,9 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 ```yaml
 ---
 theme: shibainu
-themeConfig:
-  primary: '#5d8392'
 ---
+```
 
 ## License
 
-MIT License © 2021 [Anthony Fu](https://github.com/antfu)
+MIT License © 2021 [iiiiiiinès](https://github.com/iiiiiiines)

@@ -7,7 +7,6 @@ layout: cover
 
 Presentation subtitle
 
-
 ---
 
 # Layout `default`

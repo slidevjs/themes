@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps } from '@vue/runtime-core'
+import { defineProps } from 'vue'
 import Background from '../assets/page-5.vue'
 
 const props = defineProps({

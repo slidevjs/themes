@@ -1,11 +1,22 @@
 <template>
   <div class="slidev-layout items">
     <slot />
-    <div class="pt-[10%] grid col-auto">
+    <div class="pt-[5%] grid px-10" :style="`grid-template-columns: repeat(${props.cols}, 1fr);`">
       <slot name="items" />
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { defineProps } from 'vue'
+
+const props = defineProps({
+  cols: {
+    default: 4,
+    type: Number,
+  },
+})
+</script>
 
 <style lang="postcss">
 .slidev-layout.items {
