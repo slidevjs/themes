@@ -14,13 +14,67 @@ theme: <b>shibainu</b>
 
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
-## Customization
+## Layouts
 
-```yaml
----
-theme: shibainu
----
-```
+### `cover`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/01.png)
+
+### `default`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/02.png)
+
+### `center`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/03.png)
+
+### `section`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/04.png)
+
+### `default-2`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/05.png)
+
+### `default-3`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/06.png)
+
+### `right`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/07.png)
+
+### `section-2`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/08.png)
+
+### `default-4`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/09.png)
+
+### `default-5`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/10.png)
+
+### `default-6`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/11.png)
+
+### `default-7`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/12.png)
+
+### `section-3`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/13.png)
+
+### `quote`
+
+![](https://cdn.jsdelivr.net/gh/slidevjs/themes@main/screenshots/theme-shibainu/14.png)
+
+## Example
+
+See [example.md](./example.md)
 
 ## License
 
