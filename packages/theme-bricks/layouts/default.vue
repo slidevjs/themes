@@ -10,6 +10,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 3em 4em;
+  padding: 4em 5em;
 }
 </style>

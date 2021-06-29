@@ -7,6 +7,12 @@ theme: ./
 Presentation subtitle
 
 ---
+layout: intro
+---
+
+# Slidev Theme Bricks
+
+---
 
 # Slide Title
 
@@ -41,3 +47,20 @@ layout: items
 
 ::items::
 
+---
+layout: quote
+---
+
+# Lorem ipsum
+
+---
+layout: fact
+---
+
+# Lorem ipsum
+
+---
+layout: statement
+---
+
+# Thanks

@@ -16,7 +16,7 @@
     "url": "https://github.com/slidevjs/themes"
   },
   "slidev": {
-    "colorSchema": "both",
+    "colorSchema": "light",
     "highlighter": "all",
     "defaults": {
       "fonts": {
