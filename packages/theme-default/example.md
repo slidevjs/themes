@@ -91,3 +91,12 @@ class: "text-center"
 # Learn More
 
 [Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+
+---
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
