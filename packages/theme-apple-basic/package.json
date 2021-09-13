@@ -1,6 +1,6 @@
 {
   "name": "@slidev/theme-apple-basic",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "description": "Apple like theme for Slidev",
   "engines": {
     "node": ">=14.0.0",
