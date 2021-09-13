@@ -8,8 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
-
 const props = defineProps({
   cols: {
     default: 4,
