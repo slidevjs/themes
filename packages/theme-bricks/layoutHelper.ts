@@ -10,7 +10,7 @@ export function resolveAssetUrl(url: string) {
 }
 
 export function handleBackground(background?: string, dim = false): CSSProperties {
-  const isColor = background && background[0] === '#' && background.startsWith('rgb')
+  const isColor = background && ['#', 'rgb', 'hsl'].some(v => background.indexOf(v) === 0)
 
   const style = {
     background: isColor
