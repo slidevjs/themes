@@ -42,7 +42,7 @@
 
   ul {
     list-style: disc;
-    @apply mt-4;
+    @apply mb-4;
   }
 
   li {
