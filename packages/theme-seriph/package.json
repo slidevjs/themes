@@ -18,7 +18,9 @@
       "fonts": {
         "mono": "PT Mono",
         "sans": "PT Serif",
-        "serif": "PT Serif"
+        "serif": "PT Serif",
+        "italic": true,
+        "weights": "400, 700"
       }
     }
   },
