@@ -17,11 +17,9 @@
   ],
   "engines": {
     "node": ">=14.0.0",
-    "slidev": ">=0.19.3"
+    "slidev": ">=v0.47.0"
   },
   "slidev": {
-    "colorSchema": "both",
-    "highlighter": "all",
     "defaults": {
       "fonts": {
         "mono": "PT Mono",
@@ -33,9 +31,8 @@
     }
   },
   "dependencies": {
-    "@slidev/types": "^0.46.3",
+    "@slidev/types": "^0.47.0",
     "codemirror-theme-vars": "^0.1.2",
-    "prism-theme-vars": "^0.2.4",
-    "theme-vitesse": "^0.7.5"
+    "prism-theme-vars": "^0.2.4"
   }
 }

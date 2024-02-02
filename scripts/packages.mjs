@@ -5,7 +5,7 @@ import fg from 'fast-glob'
 import prompts from 'prompts'
 
 export async function getPackagePaths() {
-  return (await fg('./packages/*/package.json', { absolute: true })).map(i => dirname(i))
+  return (await fg('./packages/*/package.json', { absolute: true })).map(i => dirname(i)).sort()
 }
 
 export async function getPackageJSON(dir) {

@@ -15,11 +15,11 @@
     "slidev"
   ],
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=14.0.0",
+    "slidev": ">=v0.47.0"
   },
   "slidev": {
     "colorSchema": "dark",
-    "highlighter": "all",
     "defaults": {
       "fonts": {
         "sans": "Titillium Web",
@@ -28,9 +28,8 @@
     }
   },
   "dependencies": {
-    "@slidev/types": "^0.46.3",
+    "@slidev/types": "^0.47.0",
     "codemirror-theme-vars": "^0.1.2",
-    "prism-theme-vars": "^0.2.4",
-    "theme-vitesse": "^0.7.5"
+    "prism-theme-vars": "^0.2.4"
   }
 }
