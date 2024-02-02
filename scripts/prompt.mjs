@@ -6,7 +6,7 @@ import { promptForPackage } from './packages.mjs'
 
 const pkg = await promptForPackage()
 
-execSync('npx bumpp', { stdio: 'inherit', cwd: pkg.path })
+execSync('npx bumpp --no-tag --no-commit --no-push', { stdio: 'inherit', cwd: pkg.path })
 cd(pkg.path)
 
 const { version } = await fs.readJSON(join(pkg.path, 'package.json'))
