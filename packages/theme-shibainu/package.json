@@ -1,15 +1,22 @@
 {
   "name": "@slidev/theme-shibainu",
   "version": "0.0.2",
-  "engines": {
-    "node": ">=14.0.0"
-  },
   "description": "Shibainu theme for Slidev",
+  "author": "Inès <ines@inesfendi.com>",
+  "license": "MIT",
+  "homepage": "https://sli.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slidevjs/themes"
+  },
+  "bugs": "https://github.com/slidevjs/themes/issues",
   "keywords": [
     "slidev-theme",
     "slidev"
   ],
-  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "slidev": {
     "colorSchema": "dark",
     "highlighter": "all",
@@ -20,17 +27,10 @@
       }
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/slidevjs/themes"
-  },
-  "author": "Inès <ines@inesfendi.com>",
-  "homepage": "https://sli.dev",
-  "bugs": "https://github.com/slidevjs/themes/issues",
   "dependencies": {
-    "@slidev/types": "^0.22.7",
-    "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.2",
-    "theme-vitesse": "^0.1.12"
+    "@slidev/types": "^0.46.3",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.7.5"
   }
 }

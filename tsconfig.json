@@ -1,21 +1,21 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "baseUrl": ".",
     "target": "esnext",
     "lib": ["DOM", "ESNext"],
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "noUnusedLocals": true,
+    "baseUrl": ".",
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
     "types": [
       "vite/client",
       "node"
-    ]
+    ],
+    "strict": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   },
   "exclude": [
     "scripts/*"

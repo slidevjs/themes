@@ -6,7 +6,6 @@ An Apple like theme for [Slidev](https://github.com/slidevjs/slidev).
 
 This theme is inspired by the Basic Black/White theme on the Apple Keynote application.
 
-
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
@@ -22,7 +21,7 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 This theme provides the following layouts:
 
 ### Title
-Usage: 
+Usage:
 ```
 ---
 layout: intro
@@ -83,8 +82,8 @@ image: 'image-url'
 
 ---
 
-### Title, Bullets & Image 
-Usage: 
+### Title, Bullets & Image
+Usage:
 ```
 ---
 layout: image-right
@@ -108,7 +107,7 @@ image: 'image-url'
 ---
 
 ### Bullets
-Usage: 
+Usage:
 ```
 ---
 layout: bullets
@@ -122,7 +121,7 @@ layout: bullets
 ---
 
 ### Section
-Usage: 
+Usage:
 ```
 ---
 layout: section
@@ -136,7 +135,7 @@ layout: section
 ---
 
 ### Statement
-Usage: 
+Usage:
 ```
 ---
 layout: statement
@@ -150,7 +149,7 @@ layout: statement
 ---
 
 ### Big fact
-Usage: 
+Usage:
 ```
 ---
 layout: fact
@@ -159,14 +158,13 @@ layout: fact
 # 100%
 Fact information
 
-
 ```
 ![fact](https://i.imgur.com/hPL7qOj.png)
 
 ---
 
 ### Quote
-Usage: 
+Usage:
 ```
 ---
 layout: quote
@@ -181,7 +179,7 @@ Attribution
 ---
 
 ### Photo - 3
-Usage: 
+Usage:
 ```
 ---
 layout: 3-images
@@ -189,13 +187,13 @@ imageLeft: 'image-url'
 imageTopRight: 'image-url'
 imageBottomRight: 'image-url'
 ---
-```   
+```
 ![3-images](https://i.imgur.com/Lun6FnS.png)
 
 ---
 
 ### Photo
-Usage: 
+Usage:
 ```
 ---
 layout: image
@@ -203,6 +201,3 @@ image: 'image-url'
 ---
 ```
 ![image](https://i.imgur.com/S9TQ2AZ.png)
-
-
-

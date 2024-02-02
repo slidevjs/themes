@@ -10,7 +10,7 @@ This project uses [`pnpm`](https://pnpm.io/) to manage the dependencies, install
 npm i -g pnpm
 ```
 
-Clone this repo to your local machine and install the dependencies. 
+Clone this repo to your local machine and install the dependencies.
 
 ```bash
 pnpm install

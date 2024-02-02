@@ -4,49 +4,48 @@
     "node": ">=14.0.0"
   },
   "scripts": {
-    "lint": "eslint '**/*.{js,ts,vue,json}'",
+    "lint": "eslint .",
     "lint:fix": "nr lint --fix",
     "upgrade": "taze -rwi --include /@slidev/",
     "dev": "zx scripts/dev.mjs",
     "build": "zx scripts/build.mjs",
     "release": "zx scripts/prompt.mjs",
     "screenshot": "zx scripts/screenshot.mjs",
-    "ci:publish": "zx scripts/publish.mjs"
+    "ci:publish": "zx scripts/publish.mjs",
+    "postinstall": "simple-git-hooks"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.3",
+    "@antfu/ni": "^0.21.12",
+    "@antfu/utils": "^0.7.7",
+    "@slidev/cli": "^0.46.3",
+    "@slidev/client": "^0.46.3",
+    "@slidev/parser": "^0.46.3",
+    "@slidev/types": "^0.46.3",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "bumpp": "^9.3.0",
+    "conventional-changelog-cli": "^4.1.0",
+    "eslint": "^8.56.0",
+    "esno": "^4.0.0",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "lint-staged": "^15.2.1",
+    "playwright-chromium": "^1.41.2",
+    "prompts": "^2.4.2",
+    "simple-git-hooks": "^2.9.0",
+    "taze": "^0.13.2",
+    "typescript": "^5.3.3",
+    "vue": "^3.4.15",
+    "zx": "^7.2.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
     "{packages,.vitepress,scripts}/**/*.{js,ts,vue,json}": [
       "eslint --fix"
     ]
-  },
-  "devDependencies": {
-    "@antfu/eslint-config": "^0.8.0",
-    "@antfu/ni": "^0.9.3",
-    "@antfu/utils": "^0.3.0",
-    "@slidev/cli": "^0.22.7",
-    "@slidev/client": "^0.22.7",
-    "@slidev/parser": "^0.22.7",
-    "@slidev/types": "^0.22.7",
-    "@types/fs-extra": "^9.0.12",
-    "@types/node": "^16.7.13",
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "bumpp": "^7.1.1",
-    "conventional-changelog-cli": "^2.1.1",
-    "eslint": "^7.32.0",
-    "esno": "^0.9.1",
-    "fast-glob": "^3.2.7",
-    "fs-extra": "^10.0.0",
-    "husky": "4.3.7",
-    "lint-staged": "^11.1.2",
-    "playwright-chromium": "^1.14.1",
-    "prompts": "^2.4.1",
-    "taze": "^0.4.5",
-    "typescript": "^4.4.2",
-    "vue": "^3.2.10",
-    "zx": "^4.2.0"
   }
 }

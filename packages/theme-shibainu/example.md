@@ -47,7 +47,6 @@ Colons can be used to align columns.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-
 ---
 layout: default-3
 class: 'grid text-center h-full content-center'
@@ -85,7 +84,6 @@ layout: section-2
 
 # Section 2
 
-
 ---
 layout: default-4
 ---
@@ -95,7 +93,6 @@ layout: default-4
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 
 ---
 layout: default-5
@@ -116,7 +113,6 @@ layout: default-6
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 
 ---
 layout: default-7

@@ -1,5 +1,6 @@
-import { join, dirname } from 'path'
-import { promises as fs } from 'fs'
+import { dirname, join } from 'node:path'
+import { promises as fs } from 'node:fs'
+import process from 'node:process'
 import fg from 'fast-glob'
 import prompts from 'prompts'
 
@@ -14,7 +15,7 @@ export async function getPackageJSON(dir) {
 export async function getPackageInfo() {
   const paths = await getPackagePaths()
   return await Promise.all(
-    paths.map(async(path) => {
+    paths.map(async (path) => {
       const json = await getPackageJSON(path)
       return {
         path,

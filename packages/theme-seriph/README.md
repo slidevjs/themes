@@ -22,6 +22,7 @@ theme: serif
 themeConfig:
   primary: '#5d8392'
 ---
+```
 
 ## License
 

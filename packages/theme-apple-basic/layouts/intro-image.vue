@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { handleBackground } from '../layoutHelper'
+
 const props = defineProps({
   image: {
     type: String,

@@ -1,6 +1,4 @@
-// @ts-nocheck
-
-import path from 'path'
+import path from 'node:path'
 import { $, cd } from 'zx'
 import fs from 'fs-extra'
 import * as parser from '@slidev/parser/fs'

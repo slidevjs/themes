@@ -1,12 +1,3 @@
-<template>
-  <div class="slidev-layout items">
-    <slot />
-    <div class="pt-[5%] grid px-10" :style="`grid-template-columns: repeat(${props.cols}, 1fr);`">
-      <slot name="items" />
-    </div>
-  </div>
-</template>
-
 <script setup lang="ts">
 const props = defineProps({
   cols: {
@@ -15,6 +6,15 @@ const props = defineProps({
   },
 })
 </script>
+
+<template>
+  <div class="slidev-layout items">
+    <slot />
+    <div class="pt-[5%] grid px-10" :style="`grid-template-columns: repeat(${props.cols}, 1fr);`">
+      <slot name="items" />
+    </div>
+  </div>
+</template>
 
 <style lang="postcss">
 .slidev-layout.items {
