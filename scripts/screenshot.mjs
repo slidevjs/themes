@@ -23,7 +23,7 @@ for (const pkg of await getPackagePaths()) {
 
   if (pages.length) {
     cd(pkg)
-    await $`pnpx slidev export example.md --format png --timeout 1000 --output '${dir}' --range ${pages.join(',')}`
+    await $`npx slidev export example.md --format png --timeout 1000 --output '${dir}' --range ${pages.join(',')}`
     cd(dir)
     await $([`pngquant 256 ${pages.map(toScreenshotName).join(' ')} --ext .png -f --quality 95`])
   }
