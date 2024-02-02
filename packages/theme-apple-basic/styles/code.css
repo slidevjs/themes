@@ -31,7 +31,7 @@ html:not(.dark) {
 
 html.dark {
   --prism-foreground: #d4cfbf;
-  --prism-background: #1b1b1b;
+  --prism-background: #202020;
   --prism-comment: #758575;
   --prism-string: #d48372;
   --prism-literal: #429988;
@@ -63,13 +63,6 @@ pre[class*='language-'] {
   font-size: 0.9em;
   background: var(--prism-background);
   @apply font-light py-0.5 rounded;
-}
-
-
-:not(pre) > code:before,
-:not(pre) > code:after {
-  content: '`';
-  opacity: 0.50;
 }
 
 :not(pre) > code:before {
