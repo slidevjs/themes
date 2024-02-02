@@ -1,3 +1,28 @@
+# 0.24.0 (2024-02-02)
+
+
+### Bug Fixes
+
+* embbed layout helper ([ee4cd9a](https://github.com/slidevjs/themes/commit/ee4cd9a1456da59ddb8baafb6a4783f94200f42c))
+* handleBackground helper colors all themes ([#6](https://github.com/slidevjs/themes/issues/6)) ([60a38f2](https://github.com/slidevjs/themes/commit/60a38f253b05df7c8408de84289867914411345a))
+* remove `defineProps` imports ([9c02acf](https://github.com/slidevjs/themes/commit/9c02acf6353edfc81d88a5255306f126d06f148d))
+* **seriph:** correct boldface and italics ([#10](https://github.com/slidevjs/themes/issues/10)) ([30353e1](https://github.com/slidevjs/themes/commit/30353e1ca1e638a5d5e0f5ba9809f414ade8b403))
+* subheader style ([25491db](https://github.com/slidevjs/themes/commit/25491db815ac89f1cc1a952751e918e808164a48))
+* windicss extract glob not valid ([#1](https://github.com/slidevjs/themes/issues/1)) ([875fcc9](https://github.com/slidevjs/themes/commit/875fcc9c8ac6edf75fc49f7640a56acb9d438d2f))
+
+
+### Features
+
+* new themes ([#3](https://github.com/slidevjs/themes/issues/3)) ([cbd0a1a](https://github.com/slidevjs/themes/commit/cbd0a1ac29ab4e7c5d5be24c55ee90a3945245d3))
+* primary color customization ([df299cf](https://github.com/slidevjs/themes/commit/df299cf7c06fbc556fead0e11feeaf58142d5a20))
+* **seriph:** new layouts ([2cd898b](https://github.com/slidevjs/themes/commit/2cd898b207f1de0aa593ec442f2cd4e12f0eafe8))
+* **style:** update slidev code background using prism values ([3c9da06](https://github.com/slidevjs/themes/commit/3c9da061865d15ea40efffd550b8c1ccbcd95c61))
+* update theme ([5ce60c6](https://github.com/slidevjs/themes/commit/5ce60c6a139a497acde5f4cbceb456854599f4f9))
+* upgrade to slidev 0.14 ([5b97e29](https://github.com/slidevjs/themes/commit/5b97e29c45c51ef724252df2b711d1b30c7208cd))
+* use webfonts auto importing ([f3091e2](https://github.com/slidevjs/themes/commit/f3091e2f4fac1137bafaa841050690b956f607a4))
+
+
+
 # 0.23.0 (2024-02-02)
 
 
