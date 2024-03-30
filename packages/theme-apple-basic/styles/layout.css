@@ -89,7 +89,7 @@
 
 .slidev-layout.intro-image,
 .slidev-layout.intro {
-  @apply h-full grid;
+  @apply h-full;
 
   h1 {
     @apply text-6xl font-700 leading-20;
