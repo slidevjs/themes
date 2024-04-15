@@ -47,7 +47,7 @@ Usage:
 ```
 ---
 layout: intro-image
-image: 'image-url'
+image: '/image/path'
 ---
 
 <div class="absolute top-10">
@@ -71,7 +71,7 @@ Usage:
 ```
 ---
 layout: intro-image-right
-image: 'image-url'
+image: '/image/path'
 ---
 
 # Slide Title
@@ -87,7 +87,7 @@ Usage:
 ```
 ---
 layout: image-right
-image: 'image-url'
+image: '/image/path'
 ---
 
 # Slide Title
@@ -183,9 +183,9 @@ Usage:
 ```
 ---
 layout: 3-images
-imageLeft: 'image-url'
-imageTopRight: 'image-url'
-imageBottomRight: 'image-url'
+imageLeft: '/image/path'
+imageTopRight: '/image/path'
+imageBottomRight: '/image/path'
 ---
 ```
 ![3-images](https://i.imgur.com/Lun6FnS.png)
@@ -197,7 +197,7 @@ Usage:
 ```
 ---
 layout: image
-image: 'image-url'
+image: '/image/path'
 ---
 ```
 ![image](https://i.imgur.com/S9TQ2AZ.png)
