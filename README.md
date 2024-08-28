@@ -4,7 +4,7 @@ Official themes for [Slidev](https://github.com/slidevjs/slidev).
 
 ## Packages
 
-[Theme Gallery](https://sli.dev/themes/gallery.html)
+[Theme Gallery](https://sli.dev/resources/theme-gallery)
 
 | package | version | author |
 | --- | --- | --- |
