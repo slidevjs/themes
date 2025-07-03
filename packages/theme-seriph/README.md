@@ -18,7 +18,7 @@ Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-them
 
 ```yaml
 ---
-theme: serif
+theme: seriph
 themeConfig:
   primary: '#5d8392'
 ---
