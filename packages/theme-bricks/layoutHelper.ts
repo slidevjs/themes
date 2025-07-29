@@ -23,8 +23,8 @@ export function handleBackground(background?: string, dim = false): CSSPropertie
       ? undefined
       : background
         ? dim
-          ? `linear-gradient(#0005, #0008), url(${resolveAssetUrl(background)})`
-          : `url("${resolveAssetUrl(background)}")`
+          ? `linear-gradient(#0005, #0008), url(${CSS.escape(resolveAssetUrl(background))})`
+          : `url("${CSS.escape(resolveAssetUrl(background))}")`
         : undefined,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
